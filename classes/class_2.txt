@@ -1,0 +1,13 @@
+Class: Menu
+
+Attribute:
+menuType: (String)
+serveAlcohol: (Boolean)
+itemsServed: (Array)
+addedGratuity: (Integer)
+
+Methods:
+changeMenu: (Changes menu during different times of the day)
+openBar: (changes value of serveAlcohol to true)
+soldOut: (Removes one item from the itemsServed array)
+noTip: (Set the addedGratuity to 0)
