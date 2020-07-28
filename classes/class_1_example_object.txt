@@ -1,0 +1,13 @@
+Instance: "Wild Bill's Bacon Burger"
+
+Attributes:
+proteinType = "Beef"
+vegetarian = false
+price = 7.25
+standardToppings = ["Lettuce", "Bacon", "Tomato", "BBQ Sauce"]
+
+Methods:
+changeMeat: set proteinType equal to "Chicken"
+discount: reduce price by 1
+addTopping: push "Onion Rings" to standardToppings
+removeTopping: remove "Tomato" from standardToppings
