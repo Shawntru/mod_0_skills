@@ -1,0 +1,13 @@
+Class: Lunch Menu
+
+Attribute:
+menuType: "Lunch"
+serveAlcohol: false
+itemsServed: ["Burger", "Fries", "Salad"]
+addedGratuity: 18
+
+Methods:
+changeMenu: (Changes menu from "Lunch" to "Dinner")
+openBar: (changes value of serveAlcohol to true)
+soldOut: (Removes "Fries" from the itemsServed array)
+noTip: (Set the addedGratuity to 0)
