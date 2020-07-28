@@ -1,0 +1,13 @@
+Class: Burger
+
+Attributes:
+proteinType: (String)
+vegetarian: (Boolean)
+price: (Float)
+standardToppings: (Array)
+
+Methods:
+changeMeat: (Alters proteinType with different sources of protein)
+discount: (decreases price Attribute)
+addTopping: (pushes new topping to standardToppings Array)
+removeTopping: (removes topping from standardToppings Array)
